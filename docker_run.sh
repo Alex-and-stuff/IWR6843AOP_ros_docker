@@ -47,6 +47,7 @@ docker run -it \
   -v "/tmp/.X11-unix:/tmp/.X11-unix" \
   -v "/etc/localtime:/etc/localtime:ro" \
   -v "/dev:/dev" \
+  -v "/home/ldsc/catkin_ws_melodic:/catkin_ws" \
   --user "root:root" \
   --name ldsc \
   --network host \
